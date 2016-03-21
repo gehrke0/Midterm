@@ -18,4 +18,6 @@ public class Student_Test {
 	public void test() {
 		assertEquals(1, 1);
 	}
+	@Test
+	public void test_student(){}
 }
