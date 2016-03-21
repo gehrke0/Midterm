@@ -31,5 +31,17 @@ StaffRecords.add(stafftest2);
 StaffRecords.add(stafftest3);
 StaffRecords.add(stafftest4);
 StaffRecords.add(stafftest5);
+private double calculateAverage(List <Staff> marks) {
+	  Integer sum = 0;
+	  if(!marks.isEmpty()) {
+	    for (Integer mark : marks) {
+	        sum += mark;
+	    }
+	    return sum.doubleValue() / marks.size();
+	  }
+	  return sum;
+	}
+
 }
+	
 }

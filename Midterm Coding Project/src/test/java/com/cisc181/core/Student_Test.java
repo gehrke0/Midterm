@@ -57,5 +57,16 @@ public class Student_Test {
 		assertEquals(1, 1);
 	}
 	@Test
-	public void test_student(){}
+	public void test_student(){
+		Enrollment EnrollStudent1 = new Enrollment();
+		Enrollment EnrollStudent2 = new Enrollment();
+		Enrollment EnrollStudent3 = new Enrollment();
+		Enrollment EnrollStudent4 = new Enrollment();
+		Enrollment EnrollStudent5 = new Enrollment();
+		Enrollment EnrollStudent6 = new Enrollment();
+		Enrollment EnrollStudent7 = new Enrollment();
+		Enrollment EnrollStudent8 = new Enrollment();
+		Enrollment EnrollStudent9 = new Enrollment();
+		Enrollment EnrollStudent10 = new Enrollment();
+	}
 }
