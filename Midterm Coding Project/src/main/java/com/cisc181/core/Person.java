@@ -49,6 +49,7 @@ public abstract class Person implements java.io.Serializable {
 	public void setDOB(Date DOB) throws PersonException {
 		Calendar today = Calendar.getInstance();
 		Calendar birthDate = Calendar.getInstance();
+		Person Person = PersonException(Person);
 		if (today.get(Calendar.YEAR) - birthDate.get(Calendar.YEAR) <= 100) {
 			this.DOB = DOB;
 		} else {
